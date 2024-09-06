@@ -1,0 +1,206 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* header */
+ul li 
+{
+    padding-right: 15px;
+}
+ul li a
+{
+    font-size: 17px;
+    transition: 0.7s;
+    border-radius: 15px;
+}
+ul li a:hover 
+{
+    background-color: black;
+}
+
+/* banner */
+.box
+{
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+  url("img/banner3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner
+{
+  width: 20%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 21%;
+  top: 35%;
+}
+.banner h1
+{
+  font-size: 55px;
+  color: white;
+}
+.banner p
+{
+  font-size: 17px;
+  color: white;
+}
+
+ /* @media  (max-width:567px)
+{
+  .banner 
+  {
+    width: 70%;
+    position: absolute;
+    left: 40%;
+    margin-top: 1%;
+  }
+  .banner p
+  {
+    width: 60%;
+  }
+
+} */
+
+/* details */
+.col-5 h2
+{
+  font-size: 38px;
+  width:100%;
+}
+.col-5 p
+{
+  font-size: 18px;
+}
+/* boxes */
+.img1
+{
+  height: 380px;
+  background-color:black;
+  text-align: center;
+}
+.img1 h1
+{
+  line-height:380px;
+  color: white;
+}
+/* @media (max-width:567px)
+{
+  .box3
+  {
+    display:none;
+    visibility: hidden;
+  }
+  .col-3
+  {
+    margin-left: 13%;
+  }
+} */
+.box4
+{
+  width: 100%;
+  height: 470px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+  url("img/banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner1 h1
+{
+  padding-top:8%;
+  font-size: 42px;
+  color: white;
+  padding-right: 9%;
+}
+.banner1 p
+{
+  font-size: 18px;
+  color: white;
+  padding-right: 9%;
+}
+.banner1 .btn
+{
+  margin-right: 9%;
+}
+
+/* @media(max-width:567px)
+{
+  .banner1 h1
+  {
+   padding-top: 20%;
+  }
+} */
+/* heading */
+.heading p
+{
+  font-size: 20px;
+}
+.heading h3
+{
+  font-size: 38px;
+}
+
+/* img */
+.img2
+{
+  height: 500px;
+}
+.img2 img
+{
+  height: 500px;
+  width: 90%;
+}
+.img3
+{
+  height: 500px;
+  padding-left: 10%;
+}
+.img3 img
+{
+  height: 500px;
+  width: 88%;
+}
+
+/* img-content */
+.img-content
+{
+  font-size: 30px;
+}
+.price
+{
+  font-size: 16px;
+}
+.button-1
+{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.box6
+{
+  height: 500px;
+  background-color:black;
+  color: white;
+}
+.img4 img
+{
+  height: 450px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.footer
+{
+  height: 150px;
+}
+.footer img
+{
+  height: 40px;
+}
+
+
+
